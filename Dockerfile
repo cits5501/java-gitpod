@@ -8,6 +8,7 @@ RUN apt-get update \
        apt-get install -y --no-install-recommends \
          apt-utils \
          ant \
+        ant-optional \
          curl \
          locales \
          tzdata \
@@ -20,6 +21,4 @@ RUN apt-get update \
 
 
 USER gitpod
-
-
 
